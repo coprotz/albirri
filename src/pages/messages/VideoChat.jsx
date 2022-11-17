@@ -105,8 +105,8 @@ const VideoChat = ({myname, memberId, setReceivingCall, receivingCall, roomId}) 
         
     },[roomId])
 
-    function connectToNewUser(userId, stream) {
-        const call = myPeer.call(userId, stream)
+    function connectToNewUser(memberId, stream) {
+        const call = myPeer.call(memberId, stream)
         call.on('stream', (stream) =>{
             userVideo.current.srcObject = stream
             
