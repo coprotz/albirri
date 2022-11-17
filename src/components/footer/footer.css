@@ -1,0 +1,17 @@
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: var(--primary);
+    margin-top: 10px;
+    color: var(--bg);
+}
+
+
+/* @media screen and (max-width: 440px){
+   
+
+    .m_f_items span{
+        margin: 5px;
+    }
+} */

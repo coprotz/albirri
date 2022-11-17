@@ -1,0 +1,104 @@
+.home_top{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary);
+    z-index: 15;
+   
+}
+
+.home_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    color: white;
+    /* padding: 15px; */
+}
+
+.home_profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile_img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.profile_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.btn_action{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn_action:hover{
+    background-color: var(--sec);
+    cursor: pointer;
+    color: white;
+}
+
+.btn_notify{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.user_action{
+    position: relative;
+    /* border: 1px solid red; */
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.user_menu{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    min-width: 150px;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+
+.user_menu span{
+    font-size: 1.2rem;
+}
+
+.user_menu span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
